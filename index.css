@@ -75,11 +75,11 @@ section#projects div.card.project1 {
 
 section#projects div.card.project2 {
   background: url("img/portfolio/thumbnails/canine49.png");
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 section#projects div.card.project3 {
   background: url("img/portfolio/thumbnails/Compile.png");
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 /*# sourceMappingURL=index.css.map */
