@@ -1,0 +1,78 @@
+.list-group {
+    list-style: none;
+}
+
+* {
+    transition: none !important;
+}
+
+.list-bullet{
+    list-style: initial;
+    max-width: 120px;
+    margin: auto;
+
+    li{
+        text-align: left;
+    }
+}
+
+.img-me {
+    height: 250px;
+    border-radius: 50%;
+}
+
+header.masthead {
+    background-image: url("img/header.jpg") !important;
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+}
+
+header.masthead .header-content .header-content-inner p{
+    font-weight: normal !important;
+    font-style: italic;
+}
+
+.greenIcon{
+    color: green;
+}
+
+.grayIcon{
+    color: gray;
+}
+
+section#projects {
+    div.card {
+        border: none;
+        border-radius: 0;
+        color: white;
+        background-size: cover !important;
+        background-blend-mode: multiply;
+        background-position: center !important;
+
+        h3 {
+            margin: 0;
+            cursor: pointer;
+
+            vertical-align: middle;
+
+            i.fa {
+                float: right;
+            }
+        }
+
+        &.project1 {
+            background: url("img/portfolio/thumbnails/thumbnail_1.jpg");
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        &.project2 {
+            background: url("img/portfolio/thumbnails/canine49.png");
+            background-color: rgba(0, 0, 0, 0.05);
+        }
+        &.project3 {
+            background: url("img/portfolio/thumbnails/Compile.png");
+            background-color: rgba(0, 0, 0, 0.05);
+        }
+    }
+}
