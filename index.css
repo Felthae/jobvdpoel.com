@@ -30,6 +30,12 @@ header.masthead {
   background-attachment: fixed;
 }
 
+@media only screen and(max-device-width: 1366px){
+  header.masthead{
+    background-attachment: scroll;
+  }
+}
+
 header.masthead .header-content .header-content-inner p {
   font-weight: normal !important;
   font-style: italic;
