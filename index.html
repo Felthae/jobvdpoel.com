@@ -64,7 +64,7 @@
             <div class="header-content-inner">
                 <h1 id="homeHeading">Job van der Poel</h1>
                 <br>
-                <p>Hi, I'm Job and I'm a game designer from The Netherlands.<br> Gaming is my hobby, game design is my passion.</p>
+                <p>Game Designer</p>
                 <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More About me</a>
             </div>
         </div>
@@ -90,7 +90,7 @@
                       <br> The Legend of Zelda series, World of Warcraft and Sea of Thieves.</p>
               </div>
               <div class="col-md-4">
-                  <img src="img/Me.jpg" class="img-me">
+                  <div class="img-me"></div>
               </div>
             </div>
         </div>
@@ -111,7 +111,7 @@
 
         <div class="card project1">
           <div class="card-header">
-            <h3 data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapseOne">Kra-ken <i class="fa fa-plus"></i></h3>
+            <h3 data-toggle="collapse" onClick="changeIcon(this, 'collapse1')">Kra-ken <i class="fa fa-minus"></i></h3>
           </div>
       
           <div id="collapse1" class="collapse show">
@@ -119,15 +119,21 @@
               <div class="row">
                 <div class="col-md-6">
                   <h3>About the game</h3>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis consectetur quis rerum, commodi sint assumenda. Quo ducimus neque ut illum pariatur non, reprehenderit nostrum. Ad autem earum sequi impedit quisquam.</p>
+                  <p>Fight in intense, 1-on-1 battles with your friends! Kra-Ken is a 2.5D fighting game that will make you grip your
+                  controller ever more tightly as you beat your opponent.
+                  <br>
+                  <br>
+                  Kra-Ken aims to emulate our own view of the Street Fighter legacy, and pay homage to the many years of inspiration and
+                  joy it has brought by putting a twist on the existing formula. Experience the two unique characters and stages as
+                  envisioned by DGTL Dojo.</p>
                   <br>
                   <h3>My contribution</h3>
                   <p>This project was made during my third year at BUAS and had a 32 Week development time. Within this project I was responsible for gameplay design (applying hurt- and hitboxes to our characters' attacks and moves) and gameplay balance (the balancing of our character's damage, movement speed and other data). </p>
                   
-                  <a class="btn btn-primary" href="https://igad.itch.io/canine-49" target="_blank">download</a>
+                  <a class="btn btn-primary" href="https://store.steampowered.com/app/1105560" target="_blank">download</a>
                 </div>
                 <div class="col-md-6">
-                  <iframe style="width: 100%" height="500" src="https://www.youtube-nocookie.com/embed/3ZB5iqp0TRE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <iframe style="width: 100%" height="500" src="https://www.youtube-nocookie.com/embed/xLhc5JPQ5pY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
               </div>
             </div>
@@ -135,10 +141,10 @@
         </div>
         <div class="card project2">
           <div class="card-header">
-            <h3 class="collapsed" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapseOne">Canine 49 <i class="fa fa-plus"></i></h3>
+            <h3 class="collapsed" onClick="changeIcon(this, 'collapse2')" >Canine 49 <i class="fa fa-minus"></i></h3>
           </div>
       
-          <div id="collapse2" class="collapse">
+          <div id="collapse2" class="collapse show">
             <div class="card-body">
               <div class="row">
                 <div class="col-md-6">
@@ -165,6 +171,7 @@
           </div>
         </div>
       </div>
+      <div style="text-align: center"><a style="margin: 10px" class="btn btn-primary" href="/projects.html">More of my work</a></div>
     </section>
     <section id="skills" class="bg-primary">
         <div class="container">
@@ -172,38 +179,13 @@
                 <div class="col-lg-8 mx-auto text-center">
                     <h2 class="section-heading text-white"> Skills</h2>
                     <hr class="light">
-                    
                     <ul class="list-group text-white">
-                        <li>Level Design 
-                          <i class="fa fa-plus greenIcon"></i>
-                          <i class="fa fa-plus greenIcon"></i>
-                          <i class="fa fa-plus greenIcon"></i>
-                        </li>
-                        <li>Gameplay Design
-                            <i class="fa fa-plus greenIcon"></i>
-                            <i class="fa fa-plus greenIcon"></i>
-                            <i class="fa fa-plus grayIcon"></i>
-                        </li>
-                        <li>Gameplay Balance
-                            <i class="fa fa-plus greenIcon"></i>
-                            <i class="fa fa-plus greenIcon"></i>
-                            <i class="fa fa-plus grayIcon"></i>
-                        </li>
-                        <li>Puzzle Design
-                            <i class="fa fa-plus greenIcon"></i>
-                            <i class="fa fa-plus greenIcon"></i>
-                            <i class="fa fa-plus grayIcon"></i>
-                        </li>
-                        <li>Concept Design
-                            <i class="fa fa-plus greenIcon"></i>
-                            <i class="fa fa-plus grayIcon"></i>
-                            <i class="fa fa-plus grayIcon"></i>
-                        </li>
-                        <li>Blueprinting
-                            <i class="fa fa-plus greenIcon"></i>
-                            <i class="fa fa-plus grayIcon"></i>
-                            <i class="fa fa-plus grayIcon"></i>
-                        </li>
+                        <li>Level Design </li>
+                        <li>Gameplay Design</li>
+                        <li>Gameplay Balance</li>
+                        <li>Puzzle Design</li>
+                        <li>Concept Design</li>
+                        <li>Blueprinting</li>
                     </ul>
                 </div>
             </div>

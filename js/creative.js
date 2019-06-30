@@ -68,4 +68,13 @@
     }
   });
 
+
+  
 })(jQuery); // End of use strict
+
+function changeIcon(el, collapse){
+  $(`${el.id} i`).toggleClass('fa-minus');
+  $(`${el.id} i`).toggleClass('fa-plus');
+  $(`#${collapse}`).toggleClass('show');
+
+}

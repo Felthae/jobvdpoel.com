@@ -19,7 +19,11 @@
 
 .img-me {
   height: 250px;
+  width: 250px;
+  background: url(/img/Me.jpg);
   border-radius: 50%;
+  background-size: cover;
+  background-position: center top;
 }
 
 header.masthead {
@@ -28,12 +32,6 @@ header.masthead {
   background-size: cover;
   background-blend-mode: multiply;
   background-attachment: fixed;
-}
-
-@media only screen and(max-device-width: 1366px){
-  header.masthead{
-    background-attachment: scroll;
-  }
 }
 
 header.masthead .header-content .header-content-inner p {
@@ -75,11 +73,30 @@ section#projects div.card.project1 {
 
 section#projects div.card.project2 {
   background: url("img/portfolio/thumbnails/canine49.png");
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 section#projects div.card.project3 {
   background: url("img/portfolio/thumbnails/Compile.png");
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Projects page */
+#projectsNav {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  background: white;
+}
+
+#projectsNav a {
+  color: #8e54c5;
+}
+
+@media (min-width: 1200px) {
+  #projects-container {
+    max-width: 1440px;
+  }
 }
 /*# sourceMappingURL=index.css.map */

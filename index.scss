@@ -18,7 +18,11 @@
 
 .img-me {
     height: 250px;
+    width: 250px;
+    background: url(/img/Me.jpg);
     border-radius: 50%;
+    background-size: cover;
+    background-position: center top;
 }
 
 header.masthead {
@@ -74,5 +78,16 @@ section#projects {
             background: url("img/portfolio/thumbnails/Compile.png");
             background-color: rgba(0, 0, 0, 0.05);
         }
+    }
+}
+/* Projects page */
+#projectsNav{
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    background: white;
+    a {
+        color: rgb(142, 84, 197);
     }
 }
