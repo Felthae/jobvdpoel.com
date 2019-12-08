@@ -80,6 +80,11 @@ section#projects {
         }
     }
 }
+
+.softwareImg{
+    height: 100px;
+}
+
 /* Projects page */
 #projectsNav{
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
@@ -87,6 +92,7 @@ section#projects {
     font-size: 12px;
     font-weight: 700;
     background: white;
+    filter: drop-shadow(0 0 0.25rem black);
     a {
         color: rgb(142, 84, 197);
     }

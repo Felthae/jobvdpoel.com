@@ -81,6 +81,10 @@ section#projects div.card.project3 {
   background-color: rgba(0, 0, 0, 0.05);
 }
 
+.softwareImg {
+  height: 100px;
+}
+
 /* Projects page */
 #projectsNav {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
@@ -88,15 +92,11 @@ section#projects div.card.project3 {
   font-size: 12px;
   font-weight: 700;
   background: white;
+  -webkit-filter: drop-shadow(0 0 0.25rem black);
+          filter: drop-shadow(0 0 0.25rem black);
 }
 
 #projectsNav a {
   color: #8e54c5;
-}
-
-@media (min-width: 1200px) {
-  #projects-container {
-    max-width: 1440px;
-  }
 }
 /*# sourceMappingURL=index.css.map */
